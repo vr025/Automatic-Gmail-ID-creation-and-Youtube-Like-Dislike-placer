@@ -1,0 +1,4 @@
+browserType =gc
+link =https://www.youtube.com/watch?v=pBrbZ3bVJnA
+action =like
+GmailLink =https://accounts.google.com/SignUp?hl=en

@@ -1,0 +1,200 @@
+
+SignIN = //yt-formatted-string[contains(text(), "Sign in")]
+SignIN = //a[@class="style-scope ytd-button-renderer"]//yt-formatted-string[contains(text(), "Sign in")]
+SignIN = //a//yt-formatted-string[@id="text" and contains(text(), "Sign in")]
+SignIN = //a//paper-button[@id="button" and @class="style-scope ytd-button-renderer style-brand"]
+
+
+
+EmailID = //input[@id='identifierId']
+EmailID = //input[@id="Email"]
+EmailID = //input[@placeholder="Email or phone"]
+EmailID = //input[@aria-label='Email or phone']
+EmailID = //div[@role="presentation"]//input[@aria-label='Email or phone']
+EmailID = //div[@role="presentation"]//input[@autocomplete='username']
+
+
+
+EmailNext = //span[contains(text(),"Next")]
+EmailNext = //input[@id="next"]
+EmailNext = //input[@name="signIn"]
+EmailNext = //div[@id="identifierNext"]
+EmailNext = //div[@data-button-id-prefix="identifier"]//div[@id="identifierNext"]
+EmailNext = //div[@id="identifierNext"]//span[contains(text(),"Next")]
+
+
+
+Password = //input[@name='password']
+Password = //input[@id="Passwd"]
+Password = //input[@placeholder="Password"]
+Password = //div[@id='password']//input
+Password = //input[@type='password']
+Password = //input[@aria-label="Enter your password"]
+
+
+
+PasswordNext = //span[contains(text(),"Next")]
+PasswordNext = //input[@id="signIn"]
+PasswordNext = //input[@name="signIn"]
+PasswordNext = //div[@id="passwordNext"]//span[contains(text(),"Next")]
+PasswordNext = //div[@id="passwordNext"]
+PasswordNext = //div[@role="button"]//span[contains(text(),"Next")]
+
+
+DoneOption = //div[@id='view_container']//div[contains(text(),"Done")]
+DoneOption = //div[contains(text(),"Done")]
+DoneOption = //content//span[contains(text(),"Done")]
+DoneOption = //div[@role="region"]//div[contains(text(),"Done")]
+DoneOption = //div[@style="-moz-user-select: none;" and contains(text(),"Done")]
+
+LikeClick = //div[@id='top-level-buttons']/ytd-toggle-button-renderer[1]/a
+LikeClick = //div[@id='top-level-buttons']/ytd-toggle-button-renderer[1]
+LikeClick = //div[@id='top-level-buttons']/ytd-toggle-button-renderer[1]/a[@class="style-scope ytd-toggle-button-renderer"]
+LikeClick = //div[@id='top-level-buttons']/ytd-toggle-button-renderer[1]//yt-icon-button[@class="style-scope ytd-toggle-button-renderer style-text"]
+
+DislikeClick = //div[@id='top-level-buttons']/ytd-toggle-button-renderer[2]/a
+DislikeClick = //div[@id='top-level-buttons']/ytd-toggle-button-renderer[2]
+DislikeClick = //div[@id='top-level-buttons']/ytd-toggle-button-renderer[2]/a[@class="style-scope ytd-toggle-button-renderer"]
+DislikeClick = //div[@id='top-level-buttons']/ytd-toggle-button-renderer[2]//yt-icon-button[@class="style-scope ytd-toggle-button-renderer style-text"]
+
+LikeCheck = //div[@id='top-level-buttons']/ytd-toggle-button-renderer[1]//yt-icon-button[@class="style-scope ytd-toggle-button-renderer style-default-active"]
+LikeCheck = //div[@id='top-level-buttons']/ytd-toggle-button-renderer[1]//yt-icon-button[@aria-pressed="true"]
+LikeCheck = //div[@id='top-level-buttons']/ytd-toggle-button-renderer[1]//yt-icon-button[@class="style-scope ytd-toggle-button-renderer style-default-active"]
+LikeCheck = //div[@id='top-level-buttons']/ytd-toggle-button-renderer[1]//yt-icon-button[@aria-pressed="true"]
+
+DislikeCheck = //div[@id='top-level-buttons']/ytd-toggle-button-renderer[2]//yt-icon-button[@class="style-scope ytd-toggle-button-renderer style-default-active"]
+DislikeCheck = //div[@id='top-level-buttons']/ytd-toggle-button-renderer[2]//yt-icon-button[@aria-pressed="true"]
+DislikeCheck = //div[@id='top-level-buttons']/ytd-toggle-button-renderer[2]//yt-icon-button[@class="style-scope ytd-toggle-button-renderer style-default-active"]
+DislikeCheck = //div[@id='top-level-buttons']/ytd-toggle-button-renderer[2]//yt-icon-button[@aria-pressed="true"]
+
+RoundClick = //button[@id='avatar-btn']
+RoundClick = //button[@id='avatar-btn']//img[@id="img"]
+RoundClick = //button[@class='style-scope ytd-topbar-menu-button-renderer']
+RoundClick = //div[@id="buttons"]//button[@id='avatar-btn']
+
+SignOUT = //yt-multi-page-menu-section-renderer//ytd-compact-link-renderer[4]//a
+SignOUT = //yt-multi-page-menu-section-renderer//ytd-compact-link-renderer[4]//a[@id="endpoint"]
+SignOUT = //yt-multi-page-menu-section-renderer//ytd-compact-link-renderer[4]//paper-item
+SignOUT = //yt-multi-page-menu-section-renderer//ytd-compact-link-renderer[4]//yt-formatted-string[1]
+
+https://accounts.google.com/AccountChooser
+
+AccountRemove = //a[@id='edit-account-list']
+AccountRemove = //a[contains(text(),'Remove')]
+AccountRemove = //ul//li[2]
+AccountRemove = //ul//li[2]//a
+
+
+IDRemove = //button[@id='choose-account-0']
+IDRemove = //button[@name='Email']
+IDRemove = //button//img
+IDRemove = //button//span[2]
+
+https://accounts.google.com/signin/selectchallenge
+
+SelectCity = //ol[@id='challengePickerList']/li[1]/form/button
+SelectCity = //ol[@id='challengePickerList']/li[1]//form
+SelectCity = //ol[@id='challengePickerList']/li[1]
+SelectCity = //ol/li[1]
+
+CityEnter = //input[@id='knowledgeLoginLocationInput']
+CityEnter = //input[@aria-label='Enter a city']
+CityEnter = //input[@name='knowledgeLoginLocationInput']
+CityEnter = //div//input[@type="text"]
+
+CityNext = //div[@id='next']//span
+CityNext = //div[@id='next']//content
+CityNext = //span[contains(text(),"Next")]
+CityNext = //div[@id='next']//content/span[1]
+
+AR1 = //div[@id='view_container']//button
+AR1 = //button
+AR1 = //button[contains(text(),"Remove")]
+AR1 = //ul[2]//li
+
+IR1 = //div[@id='view_container']//img
+IR1 = //img
+IR1 = //li[1]/div[1]//div[2]
+IR1 = //p[contains(text(),"Sig")]
+
+ConRemove = //div[contains(text(),"Yes")]
+
+https://accounts.google.com/SignUp?hl=en
+
+FirstName = //input[@id='FirstName']
+FirstName = //strong[contains(text(),'First')]//following-sibling::input
+FirstName = //span[contains(text(),'First')]//preceding-sibling::input
+FirstName = //input[@name='FirstName']
+
+LastName = //input[@id='LastName']
+LastName = //strong[contains(text(),'Last')]//following-sibling::input
+LastName = //span[contains(text(),'Last')]//preceding-sibling::input
+LastName = //input[@name='LastName']
+
+GmailAddress = //input[@id='GmailAddress']
+GmailAddress = //strong[contains(text(),'username')]//following-sibling::input
+GmailAddress = //span[contains(text(),'@gmail.com')]//preceding-sibling::input
+GmailAddress = //input[@name='GmailAddress']
+
+CreatePassword = //input[@id='Passwd']
+CreatePassword = //strong[contains(text(),'Create')]//following-sibling::input
+CreatePassword = //input[@name='Passwd']
+CreatePassword = //label[@id='password-label']//input
+
+ConfirmPassword = //input[@id='PasswdAgain']
+ConfirmPassword = //strong[contains(text(),'Confirm')]//following-sibling::input
+ConfirmPassword = //input[@name='PasswdAgain']
+ConfirmPassword = //label[@id='confirm-password-label']//input
+
+MonthSelect = //span[@id='BirthMonth']
+MonthSelect = //label[@id='month-label']//span
+MonthSelect = //span[@id="BirthMonth"]//div[@role="listbox"][1]
+MonthSelect = //span[@id="BirthMonth"]/div[1]
+
+MonthClick = //div[@id=':4']
+MonthClick = //div[@id=':4']//div[contains(text(),"April")]
+MonthClick = //div[contains(text(),"April")]
+MonthClick = //span[@id="BirthMonth"]//div[@id=':4']
+
+DaySelect = //input[@id='BirthDay']
+DaySelect = //strong[contains(text(),'Day')]//following-sibling::input
+DaySelect = //input[@name='BirthDay']
+DaySelect = //span[contains(text(),'Day')]//preceding-sibling::input
+
+YearSelect = //input[@id='BirthYear']
+YearSelect = //strong[contains(text(),'Year')]//following-sibling::input
+YearSelect = //input[@name='BirthYear']
+YearSelect = //span[contains(text(),'Year')]//preceding-sibling::input
+
+GenderSelect = //div[@id='Gender']/div
+GenderSelect = //div[@id='Gender']
+GenderSelect = //div[@id='Gender']//div[@title="Gender"]
+GenderSelect = //div[@id='Gender']//div[@role="listbox"]
+
+GenderClick = //div[@id=':f']
+GenderClick = //div[@id=':f']//div[contains(text(),"Male")]
+GenderClick = //div[contains(text(),"Male")]
+GenderClick = //label[@id="gender-label"]//div[@id=':f']
+
+Submit = //input[@id='submitbutton']
+Submit = //input[@name='submitbutton']
+Submit = //input[@type='submit']
+Submit = //input[@value='Next step']
+
+SecondSelect = //div[@id='tos-scroll-button']//img
+SecondSelect = //div[@id='tos-scroll-button']//div
+SecondSelect = //img[@class='tos-scroll-button-icon']
+SecondSelect = //div[@class='tos-scroll-button-content']
+
+AgreeSelect = //input[@id='iagreebutton']
+AgreeSelect = //input[@value='I agree']
+AgreeSelect = //div[@id='tos-buttons-right']//input[2]
+AgreeSelect = //input[@name='iagreebutton']
+
+ContinueSelect = //input[@id='submitbutton']
+ContinueSelect = //input[@name='submitbutton']
+ContinueSelect = //input[@type='submit']
+ContinueSelect = //input[@value='Continue']
+
+https://accounts.google.com/SignOutOptions
+
