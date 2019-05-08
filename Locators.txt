@@ -1,5 +1,4 @@
 
-SignIN = //yt-formatted-string[contains(text(), "Sign in")]
 SignIN = //a[@class="style-scope ytd-button-renderer"]//yt-formatted-string[contains(text(), "Sign in")]
 SignIN = //a//yt-formatted-string[@id="text" and contains(text(), "Sign in")]
 SignIN = //a//paper-button[@id="button" and @class="style-scope ytd-button-renderer style-brand"]
