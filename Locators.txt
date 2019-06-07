@@ -5,8 +5,7 @@ SignIN = //a//paper-button[@id="button" and @class="style-scope ytd-button-rende
 
 
 
-EmailID = //input[@id='identifierId']
-EmailID = //input[@id="Email"]
+
 EmailID = //input[@placeholder="Email or phone"]
 EmailID = //input[@aria-label='Email or phone']
 EmailID = //div[@role="presentation"]//input[@aria-label='Email or phone']
