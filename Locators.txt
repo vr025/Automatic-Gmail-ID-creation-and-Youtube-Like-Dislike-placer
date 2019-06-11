@@ -55,7 +55,7 @@ DislikeClick = //div[@id='top-level-buttons']/ytd-toggle-button-renderer[2]
 DislikeClick = //div[@id='top-level-buttons']/ytd-toggle-button-renderer[2]/a[@class="style-scope ytd-toggle-button-renderer"]
 DislikeClick = //div[@id='top-level-buttons']/ytd-toggle-button-renderer[2]//yt-icon-button[@class="style-scope ytd-toggle-button-renderer style-text"]
 
-LikeCheck = //div[@id='top-level-buttons']/ytd-toggle-button-renderer[1]//yt-icon-button[@class="style-scope ytd-toggle-button-renderer style-default-active"]
+
 LikeCheck = //div[@id='top-level-buttons']/ytd-toggle-button-renderer[1]//yt-icon-button[@aria-pressed="true"]
 LikeCheck = //div[@id='top-level-buttons']/ytd-toggle-button-renderer[1]//yt-icon-button[@class="style-scope ytd-toggle-button-renderer style-default-active"]
 LikeCheck = //div[@id='top-level-buttons']/ytd-toggle-button-renderer[1]//yt-icon-button[@aria-pressed="true"]
